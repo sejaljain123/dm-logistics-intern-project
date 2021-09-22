@@ -1,0 +1,81 @@
+.card-container {
+  width: 100%;
+  padding: 0 4em;
+}
+.Card1 {
+  width: 400px;
+  border: 1px solid #e5e5e5;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.Card1-items p {
+  color: #5ee520;
+}
+.Card1-title {
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #009074;
+  margin-bottom: 2px;
+}
+.head {
+  font-weight: 900;
+  margin-left: 1rem;
+}
+.Card2Content {
+  width: auto;
+}
+
+.Card2-container {
+  border: 1px solid #e5e5e5;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  width: auto;
+}
+.vl2 {
+  margin-left: 20px;
+  margin-right: 40px;
+  border-left: 1px solid #e5e5e5;
+  height: 120px;
+}
+
+.vl1 {
+  margin-left: 40px;
+  margin-right: 40px;
+  border-left: 1px solid #e5e5e5;
+  height: 80px;
+}
+.Card2-content {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: nowrap;
+  min-width: 200px;
+}
+.Card2sub-content {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: nowrap;
+  min-width: 100px;
+}
+
+.card2sub-head {
+  font-size: 1.5em;
+  color: '#008174';
+  font-weight: 800;
+  text-align: left;
+}
+.Card2sub-title {
+  font-size: 12px;
+}
+.card4sub-head {
+  font-size: 1.2em;
+  margin-top: 0;
+  font-weight: 600;
+}

@@ -1,0 +1,20 @@
+.project {
+  padding: 0 1.2em 0 4em;
+  height: 50px;
+}
+
+.Project-Container {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #e5e5e5;
+}
+tr {
+  border-style: none !important;
+}
+th {
+  border-style: none !important;
+}
+td {
+  border-style: none !important;
+  border-top: 1px solid #e5e5e5 !important;
+}

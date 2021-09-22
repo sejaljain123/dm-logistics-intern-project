@@ -1,0 +1,44 @@
+.header-left {
+  text-align: left;
+}
+
+.header-left h1 {
+  font-family: 'Serif', Courier, monospace;
+  font-weight: 1000;
+}
+.header-left h4 {
+  font-family: 'Serif', Courier, monospace;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8f8e8d;
+}
+.header-Container {
+  width: 100%;
+  padding: 0 4em;
+}
+.dropmenu {
+  background-color: transparent !important;
+}
+.btn-primary {
+  background-color: transparent !important;
+  color: black !important;
+  border: 1px solid #dfdfdf !important;
+}
+.date-picker {
+  border: 1px solid #dfdfdf !important;
+  padding: 0;
+  height: 38px;
+}
+.dropmenu {
+  background-color: #009074 !important;
+  color: white !important;
+}
+
+.hr {
+  border-bottom: 1px solid #dfdfdf;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.header {
+  flex-wrap: wrap;
+}

@@ -1,0 +1,29 @@
+.stats {
+  padding: 0 4em 0 0;
+  width: 45%;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.stats__container {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #e5e5e5;
+}
+.statshead-item p {
+  font-size: 10px;
+}
+.dot1 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #fedd84;
+}
+
+.dot2 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #febe13;
+}
