@@ -27,11 +27,11 @@ const Project = () => {
         <Table striped bordered hover size="sm" className="tab">
           <thead>
             <tr>
-              <th>Project Name</th>
+              <th className="w-25">Project Name</th>
               <th>Company </th>
-              <th>Employees</th>
-              <th>Raters</th>
-              <th className="w-10">Participaton</th>
+              <th className="num">Employees</th>
+              <th className="num">Raters</th>
+              <th className="num">Participaton</th>
               <th>Expiry Date</th>
               <th>Status</th>
               <th></th>
@@ -49,7 +49,7 @@ const Project = () => {
                   <td>{item.expiry_date}</td>
                   <td>{item.status}</td>
                   <td>
-                    <button className="btn btn-primary">Edit</button>
+                    <button className="btn btn-primary">...</button>
                   </td>
                 </tr>
               );

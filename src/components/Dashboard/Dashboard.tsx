@@ -4,6 +4,7 @@ import Nav from '../NavigationBar/Navigation';
 import CardComp from '../CardComp/CardComp';
 import Project from '../Project/Project';
 import Stats from '../Stats/Stats';
+import Footer from '../Footer/Footer';
 
 const Dashboard = () => {
   return (
@@ -15,6 +16,7 @@ const Dashboard = () => {
         <Project />
         <Stats />
       </div>
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,15 @@
+.footer {
+  padding: 0 4em;
+  width: 100%;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font: normal normal normal 14px/16px Calibri;
+  color: #838383;
+}
+
+.footer__container {
+  width: 100%;
+  text-align: left;
+  border-top: 1px solid #e5e5e5;
+}

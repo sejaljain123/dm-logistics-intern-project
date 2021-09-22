@@ -28,8 +28,8 @@ const Stats = () => {
           </div>
         </div>
         <hr className="mt-0" />
-        <div className="statsbody d-flex justify-content-around">
-          <PieChart width={500} height={500} className="ms-5">
+        <div className="statsbody d-flex justify-content-around mt-0">
+          <PieChart width={400} height={400} className="ms-5">
             <Pie
               cx="50%"
               cy="50%"
@@ -67,7 +67,7 @@ const Stats = () => {
               }}
               data={data}
               dataKey="survey"
-              outerRadius={200}
+              outerRadius={150}
               innerRadius={100}
               fill="#8884d8"
             >
@@ -95,6 +95,21 @@ const Stats = () => {
             <p className="dot2 me-3"></p>
             <p>Completed Survey</p>
           </div>
+        </div>
+        <hr />
+        <div className="d-flex justify-content-between align-items-center w-100">
+          <div className="d-flex w-70 foot">
+            <img width="15px" height="15px" src="/assets/tint.svg" />
+            <p className="ms-2">
+              You can share this graphical representation with the above listed data
+            </p>
+          </div>
+          <Button variant="outline-secondary">
+            <div className="d-flex align-items-center justify-content-center">
+              <img width="15px" height="15px" src="/assets/Share.svg" />
+              <p className="ms-1 mb-0 p-0 share">Share</p>
+            </div>
+          </Button>{' '}
         </div>
       </div>
     </div>
