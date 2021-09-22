@@ -43,3 +43,24 @@ td {
 .num {
   width: 10% !important;
 }
+
+.active {
+  background-color: #bef8d6 !important;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em;
+  color: #00bc5d;
+  font-weight: bold;
+}
+.close {
+  background-color: #ffcbce !important;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em;
+  color: #be2b3f;
+  font-weight: bold;
+}
+
+.green {
+  color: #00bc5d;
+}

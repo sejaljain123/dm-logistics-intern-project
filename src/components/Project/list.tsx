@@ -15,7 +15,7 @@ export const list = [
     company: 'Techytt PTY LTD',
     employees: 20,
     raters: 30,
-    participation: '12%',
+    participation: '100%',
     expiry_date: '20 AUG 2021',
     status: 'Closed',
   },

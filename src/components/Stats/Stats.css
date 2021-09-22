@@ -42,3 +42,20 @@
   color: #001737;
   opacity: 1;
 }
+
+.mid-text {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.pie {
+  position: relative;
+}
+
+.percent {
+  position: absolute;
+  top: 45%;
+  left: 48% !important;
+  font-size: 2rem;
+  font-weight: 900;
+}

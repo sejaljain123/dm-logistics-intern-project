@@ -45,9 +45,13 @@ const Project = () => {
                   <td>{item.company}</td>
                   <td>{item.employees}</td>
                   <td>{item.raters}</td>
-                  <td className="w-10">{item.participation}</td>
+                  <td className={item.status == 'Closed' ? 'green' : ''}>{item.participation}</td>
                   <td>{item.expiry_date}</td>
-                  <td>{item.status}</td>
+                  <td>
+                    <button className={item.status == 'Active' ? 'active' : 'close'}>
+                      {item.status}
+                    </button>
+                  </td>
                   <td>
                     <button className="btn btn-primary">...</button>
                   </td>
